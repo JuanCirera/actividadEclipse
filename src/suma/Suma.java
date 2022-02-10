@@ -6,6 +6,7 @@ public class Suma {
 
 	public static void main(String[] args) {
 		// TODO Esbozo de método generado automáticamente
+		System.out.println("**Suma de enteros**");
 		suma();
 	}
 
