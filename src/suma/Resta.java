@@ -2,11 +2,11 @@ package suma;
 
 import java.util.Scanner;
 
-public class Suma {
+public class Resta {
 
 	public static void main(String[] args) {
 		// TODO Esbozo de método generado automáticamente
-		System.out.println("**Suma de enteros**");
+		System.out.println("**Resta de enteros**");
 		suma();
 	}
 
@@ -21,7 +21,7 @@ public class Suma {
 			System.out.println("Introduce otro número positivo:");
 			b=teclado.nextInt();
 			if ((a > 0) && (b >0)) {
-				resultado= a+b;
+				resultado= a-b;
 				System.out.println("El resultado es " + resultado);
 				
 			}
